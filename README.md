@@ -109,12 +109,12 @@ If you like this project, give it a ⭐️ and let me know what you like in part
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank all my coding partners and the microverse community from the support and always being ready and willing to help me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/chepkok3/Vet-Clinic-Database/blob/dev/MIT%20License) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
