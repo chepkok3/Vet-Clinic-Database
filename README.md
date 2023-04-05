@@ -72,6 +72,10 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
+## Authors
+
+## 👥 Author <a name="author"></a>
+
 👤 **Stanley Kibor**
 
 - GitHub: [@chepkok3](https://github.com/chepkok3)
