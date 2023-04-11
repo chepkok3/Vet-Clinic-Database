@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -40,10 +39,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Not yet added.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -74,6 +69,10 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
+
+## Authors
+
+## 👥 Author <a name="author"></a>
 
 👤 **Stanley Kibor**
 
@@ -107,7 +106,7 @@ If you like this project, give it a ⭐️ and let me know what you like in part
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all my coding partners and the microverse community from the support and always being ready and willing to help me.
+I would like to thank all my coding partners and the microverse community for the support and always being ready and willing to help me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

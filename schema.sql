@@ -1,8 +1,7 @@
 /* Database schema to keep the structure of entire database. */
-
 CREATE TABLE animals (
     id integer primary key NOT NULL,
-    name varchar(100),
+    name text,
     date_of_birth date,
     escape_attempts integer,
     neutered boolean,
@@ -49,12 +48,11 @@ CREATE TABLE visits (
     animals_id integer REFERENCES animals(id),
     vet_id integer REFERENCES vets(id),
     visit_date DATE
-);
+    
 --database performance audit
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
 
 CREATE INDEX vet_id_idx ON visits (vet_id);
 CREATE INDEX animal_id_idx ON visits (animals_id);
-
 
