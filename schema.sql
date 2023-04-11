@@ -50,4 +50,11 @@ CREATE TABLE visits (
     vet_id integer REFERENCES vets(id),
     visit_date DATE
 );
+--database performance audit
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
+
+CREATE INDEX vet_id_idx ON visits (vet_id);
+CREATE INDEX animal_id_idx ON visits (animals_id);
+
 
