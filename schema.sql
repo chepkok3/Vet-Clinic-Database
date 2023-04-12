@@ -125,7 +125,9 @@ CREATE TABLE visits (
     vet_id integer REFERENCES vets(id),
     visit_date DATE
 );
+
 CREATE INDEX owners_email_asc ON owners (email ASC);
 CREATE INDEX owners_email_asc ON owners (email DESC);
+
 
 
