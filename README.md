@@ -80,6 +80,12 @@ Clone this repository to your desired folder:
 - Twitter: [@chepkok3](https://twitter.com/home)
 - LinkedIn: [@chepkok3](https://www.linkedin.com/in/kibor-stanley-350b8a123/)
 
+👤 **Amk lass**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
