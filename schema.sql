@@ -61,21 +61,6 @@ CREATE INDEX owners_email_asc ON owners (email ASC);
 CREATE INDEX owners_email_asc ON owners (email DESC);
 /* Database schema to keep the structure of entire database. */
 CREATE TABLE animals (
-  name VARCHAR(255) NOT NULL,
-  species VARCHAR(255) NOT NULL,
-  date_of_birth DATE NOT NULL,
-  date_of_death DATE,
-  PRIMARY KEY (name)
-);
-
-INSERT INTO animals (name, species, date_of_birth, date_of_death)
-VALUES ('Bobby', 'cat', '2018-05-18', NULL);
-
-INSERT INTO animals (name, species, date_of_birth, date_of_death)
-VALUES ('Mimi', 'dog', '2017-12-25', NULL);
-
-INSERT INTO animals (name, species, date_of_birth, date_of_death)
-VALUES ('Kiki', 'parrot', '2018-04-01', '2018-05-18');
     id integer primary key NOT NULL,
     name text,
     date_of_birth date,
@@ -126,8 +111,10 @@ CREATE TABLE visits (
     visit_date DATE
 );
 
+
 CREATE INDEX owners_email_asc ON owners (email ASC);
 CREATE INDEX owners_email_asc ON owners (email DESC);
+
 
 
 
