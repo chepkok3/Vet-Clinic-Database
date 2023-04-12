@@ -57,6 +57,15 @@ SELECT animals.name AS animal_name, animals.date_of_birth, animals.escape_attemp
 SELECT COUNT(visits.animals_id) FROM visits JOIN vets ON vets.id = visits.vet_id JOIN animals ON animals.id = visits.animals_id JOIN specializations ON specializations.vet_id = vets.id WHERE specializations.species_id <> animals.species_id;
 --What specialty should Maisy Smith consider getting? Look for the species she gets the most.
 SELECT species.name, COUNT(visits.animals_id) as count FROM animals JOIN visits ON animals.id = visits.animals_id JOIN vets ON vets.id = visits.vet_id JOIN species ON species.id = animals.species_id WHERE vets.name = 'Maisy Smith' GROUP BY species.name ORDER BY count DESC LIMIT 1;
+<<
+
+--database performance audit
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
 
 
 

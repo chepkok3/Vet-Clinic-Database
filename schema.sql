@@ -48,6 +48,14 @@ CREATE TABLE visits (
     animals_id integer REFERENCES animals(id),
     vet_id integer REFERENCES vets(id),
     visit_date DATE
+    
+--database performance audit
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
+
+CREATE INDEX vet_id_idx ON visits (vet_id);
+CREATE INDEX animal_id_idx ON visits (animals_id);
+
 );
 CREATE INDEX owners_email_asc ON owners (email ASC);
 CREATE INDEX owners_email_asc ON owners (email DESC);
@@ -102,3 +110,11 @@ CREATE TABLE visits (
     vet_id integer REFERENCES vets(id),
     visit_date DATE
 );
+
+
+CREATE INDEX owners_email_asc ON owners (email ASC);
+CREATE INDEX owners_email_asc ON owners (email DESC);
+
+
+
+
