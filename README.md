@@ -72,8 +72,6 @@ Clone this repository to your desired folder:
 
 ## Authors
 
-## 👥 Author <a name="author"></a>
-
 👤 **Stanley Kibor**
 
 - GitHub: [@chepkok3](https://github.com/chepkok3)
@@ -82,9 +80,9 @@ Clone this repository to your desired folder:
 
 👤 **Amk lass**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AmkLAss](https://github.com/githubhandle)
+- Twitter: [@AmkLAss](https://twitter.com/twitterhandle)
+- LinkedIn: [@AmkLAss](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
